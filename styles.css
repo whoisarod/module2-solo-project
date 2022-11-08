@@ -24,7 +24,7 @@ img {
     margin: 0 auto;
     height: 343px;
     width: 720px;
-    background-image: url("/images/bridge.jpeg");
+    background-image: url("images/bridge.jpeg");
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -55,4 +55,53 @@ img {
     background: #457B9D;
     border-radius: 10px;
     padding: 10px 30px;
+}
+
+/* activities */
+
+.activities {
+    width: 720px;
+    height: 378px;
+    background: #F1FAEE;
+    margin: 0 auto;
+}
+
+h3 {
+    margin-top: 0;
+    padding-top: 40px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #1D3557;
+}
+
+.activities-img {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+h4 {
+    width: 183px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #1D3557
+}
+
+p {
+    width: 198px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #1D3557;
+}
+
+.activities-img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
