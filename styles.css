@@ -16,3 +16,11 @@ body {
 img {
     width: 100px;
 }
+
+.hero {
+    margin: 0 auto;
+    height: 343px;
+    width: 720px;
+    background-image: url("/images/bridge.jpeg");
+    background-size: cover;
+}
